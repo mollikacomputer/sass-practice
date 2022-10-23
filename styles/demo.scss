@@ -1,0 +1,29 @@
+// color variable declaration
+$header-bgcolor: #ffab73;
+$main-bgcolor: #ffd384;
+$footer-bgcolor: #ffaec0;
+
+// font size
+$para-fontsize: 15px;
+/*browser reset code*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: $header-bgcolor;
+}
+
+// nav styling
+
+main{
+    background: $main-bgcolor;
+}
+#about p{
+    font-size: $para-fontsize;
+}
+footer{
+    background: $footer-bgcolor;
+}

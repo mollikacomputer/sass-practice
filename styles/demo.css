@@ -1,0 +1,22 @@
+/*browser reset code*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #ffab73;
+}
+
+main {
+  background: #ffd384;
+}
+
+#about p {
+  font-size: 15px;
+}
+
+footer {
+  background: #ffaec0;
+}/*# sourceMappingURL=demo.css.map */
