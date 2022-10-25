@@ -5,7 +5,8 @@ $footer-bgcolor: #ffaec0;
 
 // font size
 $para-fontsize: 15px;
-/*browser reset code*/
+// button variable
+
 *{
     margin:0;
     padding: 0;
@@ -14,16 +15,110 @@ $para-fontsize: 15px;
 
 header{
     background: $header-bgcolor;
+    padding: 10px;
 }
+nav{
+    margin-top:15px;
+    ul{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            margin: 0 15px;
+        }
+        a{
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            transition: .5s;
+            
+        }
+        a:hover{
+            background: #000;
+        }
+    }
+}
+// nav{
+//     margin-top:15px;
+//     ul{
+//         list-style-type: none;
+//         li{
+//             display: inline-block;
+//             margin: 0 15px;
+//         }
+//         a{
 
-// nav styling
+//             display: inline-block;
+//             color: white;
+//             text-decoration: none;
+//             padding: 10px;
+//             transition: .4s;
+//             border-radius: 5px;
+                
+            
+//         }
+//         a:hover{
+//             background-color: #000;
+//         }
+//     }
+// }
+
+// nav sass nesting styling
+// nav{
+//     margin-top:15px;
+//     ul{
+//         list-style-type: none;
+//         li{
+//             display: inline-block;
+//             margin: 0 15px;
+//             a{
+//                 display: inline-block;
+//                 color: white;
+//                 text-decoration: none;
+//                 padding: 10px;
+//                 transition: .4s;
+//                 border-radius: 5px;
+//             }
+//             a:hover{
+//                 background-color: #000;
+//             }
+//         }
+//     }
+// }
+
+
+// normal css nav styling
+// nav{
+//     margin-top:15px;
+   
+// }
+// nav ul{
+//     list-style-type: none;
+// }
+// nav ul li{
+//     display: inline-block;
+// }
+// nav ul li a{
+//     display: inline-block;
+//     color: white;
+//     text-decoration: none;
+//     padding: 10px;
+//     transition: .4s;
+//     border-radius: 5px;
+// }
+// nav ul li a:hover{
+//     background-color: #000;
+// }
 
 main{
     background: $main-bgcolor;
+    padding: 10px;
 }
 #about p{
     font-size: $para-fontsize;
 }
 footer{
+    padding: 10px;
     background: $footer-bgcolor;
 }
